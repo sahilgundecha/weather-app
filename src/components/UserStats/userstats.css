@@ -1,0 +1,23 @@
+.user-stats-container {
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .user-stats-container h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .user-stats-container p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .user-stats-container p:last-child {
+    margin-bottom: 0;
+  }

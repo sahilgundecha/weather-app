@@ -1,0 +1,28 @@
+/* WeatherWidget.css */
+.weather-widget-container {
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .weather-widget-container h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .weather-data {
+    margin-bottom: 10px;
+  }
+  
+  .weather-data p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .weather-data span {
+    font-weight: bold;
+  }
