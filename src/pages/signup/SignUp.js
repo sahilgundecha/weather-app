@@ -19,8 +19,21 @@ const SignUp = () => {
   };
 
   const handleSubmit = (e) => {
+    if (
+      !formData?.email ||
+      !formData?.password ||
+      !formData?.firstName ||
+      !formData?.lastName
+    ) {
+      alert("Please Enter Details");
+      return;
+    }
+
     e.preventDefault();
-    localStorage.setItem("userData", JSON.stringify(formData));
+    localStorage.setItem(
+      "userData",
+      JSON.stringify({ ...formData, lastLogin: new Date().toLocaleString() })
+    );
     navigate("/dashboard");
   };
 
